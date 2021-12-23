@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InputTextField: UITextField {
+public class InputTextField: UITextField {
     
     required init?(coder: NSCoder) {
         fatalError()
