@@ -13,7 +13,7 @@ public class InputTextField: UITextField {
         fatalError()
     }
     
-    init() {
+    public init() {
         super.init(frame: .zero)
         
         layer.borderWidth = 1.0
