@@ -18,7 +18,7 @@ public class headerImageView: UIImageView {
         
         translatesAutoresizingMaskIntoConstraints = false
         
-       image = UIImage(named: "headerImage")
+        image = UIImage(named: "headerImage")
     }
 }
 
