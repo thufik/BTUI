@@ -18,6 +18,10 @@ public class InputTextField: UITextField {
         
         layer.borderWidth = 1.0
         layer.borderColor = UIColor.gray.cgColor
+        
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        heightAnchor(equalTo: 80)
     }
 }
 
