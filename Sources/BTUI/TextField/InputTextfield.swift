@@ -21,7 +21,7 @@ public class InputTextField: UITextField {
         
         translatesAutoresizingMaskIntoConstraints = false
         
-        heightAnchor(equalTo: 80)
+        heightAnchor(equalTo: 50)
     }
 }
 
