@@ -24,8 +24,5 @@ let package = Package(
         .target(
             name: "BTUI",
             dependencies: []),
-        .testTarget(
-            name: "BTUITests",
-            dependencies: ["BTUI"]),
     ]
 )
