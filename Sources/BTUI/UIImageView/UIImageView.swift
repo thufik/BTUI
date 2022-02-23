@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class headerImageView: UIImageView {
+public class HeaderImageView: UIImageView {
     
     required init?(coder: NSCoder) {
         fatalError()
@@ -22,5 +22,49 @@ public class headerImageView: UIImageView {
     }
 }
 
+public class FacebookImageView: UIImageView {
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+    
+    public init() {
+        super.init(frame: .zero)
+        
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        image = UIImage(named: "facebookImage")
+    }
+}
 
+public class GoogleImageView: UIImageView {
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+    
+    public init() {
+        super.init(frame: .zero)
+        
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        image = UIImage(named: "googleImage")
+    }
+}
 
+public class EmailSentSuccessImageView: UIImageView {
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+    
+    public init() {
+        super.init(frame: .zero)
+        
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        contentMode = .scaleAspectFit
+        
+        image = UIImage(named: "emailSentSuccessImage")
+    }
+}

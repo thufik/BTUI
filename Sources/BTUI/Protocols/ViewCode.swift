@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol LubyViewCode {
+public protocol BTViewCode {
     
     /// Criação da hierarquia de views
     func setupHierarchy()
@@ -19,7 +19,7 @@ public protocol LubyViewCode {
     func setupConfigurations()
 }
 
-public extension LubyViewCode {
+public extension BTViewCode {
     
     func setupView() {
         setupHierarchy()

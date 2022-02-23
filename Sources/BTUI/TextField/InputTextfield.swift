@@ -58,7 +58,7 @@ public class InputTextView: UIView {
 }
 
 
-extension InputTextView: LubyViewCode {
+extension InputTextView: BTViewCode {
     public func setupHierarchy() {
         addSubview(textField)
         addSubview(placeHolderLabel)

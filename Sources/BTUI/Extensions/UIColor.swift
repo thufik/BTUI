@@ -27,11 +27,19 @@ extension UIColor {
         self.init(red:red, green:green, blue:blue, alpha:alpha)
     }
     
-    static func primaryColor() -> UIColor {
+    public static func primaryColor() -> UIColor {
         UIColor(hexString: "#0BD0C4")
     }
     
-    static func textFieldBackgroundColor() -> UIColor {
+    public static func textFieldBackgroundColor() -> UIColor {
         UIColor(hexString: "#FAFAFA")
+    }
+    
+    public static func textFieldBorderColor() -> UIColor {
+        UIColor(red: 0, green: 0, blue: 0, alpha: 0.13)
+    }
+    
+    public static func defaultTextColor() -> UIColor {
+        UIColor(hexString: "#C2C2C2")
     }
 }
